@@ -6,7 +6,7 @@ export default function Results(props) {
     return (
         <div className="Meanings">
             <h2 className="text-capitalize">{props.results.word}</h2>
-            <h3>Definition</h3>
+            <h3>Meanings</h3>
             {props.results.meanings.map(function(meaning, index){
                 return (
                     <div key={index}>
