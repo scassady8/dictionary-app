@@ -1,12 +1,14 @@
 import { React, useState } from "react";
 import axios from "axios";
+import Results from "./Results";
 import "./Search.css";
 
 export default function Search() {
     let [keyword, setKeyword]= useState(null);
+    let [results, setResults]= useState(null);
 
     function handleResponse(response){
-        console.log(response);
+        setResults(response.data[0]);
     }
 
     function searchKeyword(event) {
@@ -25,6 +27,7 @@ export default function Search() {
             <form onSubmit={searchKeyword}>
                 <input type="search" placeholder='Enter a word' onChange={updateKeyword}/>
             </form>
+            <Results results={results}/>
         </div>
     )
 }
