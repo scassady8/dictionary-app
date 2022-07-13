@@ -11,8 +11,21 @@ function App() {
         <main>
           <Search />
         </main>
-        <footer  className="text-center mt-2">
-          <small>Coded by Shannon Cassady</small>
+        <footer  className="text-center mt-3">
+          <p>
+            <small>
+              This project was coded by {" "}
+              <a href="https://github.com/scassady8"
+                target="_blank"
+                rel="noopener noreferrer">Shannon Cassady
+              </a>
+                {" "} and is{" "}
+              <a href="https://github.com/scassady8/dictionary-app"
+                target="_blank"
+                rel="noopener noreferrer">open source
+              </a>.
+            </small>
+          </p>
         </footer>
       </div>
     </div>
