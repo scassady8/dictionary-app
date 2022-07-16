@@ -11,7 +11,7 @@ function App() {
         <main>
           <Search />
         </main>
-        <footer  className="text-center mt-3">
+        <footer  className="text-center">
           <p>
             <small>
               This project was coded by {" "}

@@ -1,9 +1,19 @@
 .App {
   margin: 50px;
 }
-
+.container {
+  min-height: 86vh;
+  display: flex;
+  flex-direction: column;
+}
 .App-header {
   text-align: center;
   font-size: 40px;
-
+  flex-shrink: 0;
+}
+footer {
+  flex-shrink: 0;
+}
+main {
+    flex-grow: 1;
 }

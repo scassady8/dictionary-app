@@ -1,0 +1,10 @@
+.keyword, 
+.Meanings {
+    background-color: white;
+    border: solid 1px white;
+    border-radius: 10px;
+    display: block;
+    margin: 20px auto;
+    max-width: 1000px;
+    padding: 10px;
+}
