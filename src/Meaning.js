@@ -9,7 +9,7 @@ export default function Meaning(props) {
             {props.meaning.definitions.map(function(definition, index){
                 return (
                     <div key={index} className="definitions">
-                        <span className="pe-2 text-opacity-75">{index +1}</span> {definition.definition}
+                        <span className="pe-2 opacity-75">{index +1}</span> {definition.definition}
                         <div className="example"><em>{definition.example}</em></div>
                         <Synonyms synonyms={definition.synonyms} />
                     </div>

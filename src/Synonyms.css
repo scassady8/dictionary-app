@@ -1,7 +1,11 @@
-.synonyms {
-    padding-left: 30px;
-}
-
 .synonyms ul {
     list-style: none;
+    padding-left: 30px;
+}
+.header {
+    font-weight: 500;
+}
+.synonyms li {
+    display: inline-block;
+    padding-right: 10px;
 }

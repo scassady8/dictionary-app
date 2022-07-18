@@ -11,6 +11,9 @@
   font-size: 40px;
   flex-shrink: 0;
 }
+h1 {
+  color: #152744
+}
 footer {
   flex-shrink: 0;
 }

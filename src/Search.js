@@ -24,9 +24,12 @@ export default function Search() {
 
     return (
         <div className="Search">
-            <form onSubmit={searchKeyword}>
-                <input type="search" placeholder='Enter a word' className="form-control w-50" onChange={updateKeyword}/>
-            </form>
+            <section>
+                <p>What word would you like to search for?</p>
+                <form onSubmit={searchKeyword}>
+                    <input type="search" placeholder='Enter a word' className="form-control w-50" onChange={updateKeyword}/>
+                </form>
+            </section>
             <Results results={results}/>
         </div>
     )

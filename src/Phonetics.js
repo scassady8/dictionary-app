@@ -7,7 +7,7 @@ export default function Phonetics(props) {
       <a href={props.phonetic.audio} target="_blank" rel="noreferrer">
       <i class="fa-solid fa-circle-play"></i>
       </a> 
-      <span className="ms-2">{props.phonetic.text}</span> 
+      <span className="ms-3">{props.phonetic.text}</span> 
     </div>
   );      
 }
